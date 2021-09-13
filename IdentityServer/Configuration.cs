@@ -10,7 +10,6 @@ namespace IdentityServer
         public static IEnumerable<IdentityResource> GetIdentityResources() =>
             new List<IdentityResource>
             {
-                dfdfd
                 new IdentityResources.OpenId(),
                 //new IdentityResources.Profile(),
                 new IdentityResource
